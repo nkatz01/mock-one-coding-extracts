@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wKoC3zdmb+ffiK+o1mY8xIUOPFlC7eOwXu+KjDxxn0Vt4uIGmTADLOZmpoqVaoaW/Wk1MGUoWROSAwQtgM7ylA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nuche\\OneDrive\\Documents\\mock-exam-paper-one-nkatz01\\MockOne\\QuestionOne\\QuestionOne.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nuche\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
