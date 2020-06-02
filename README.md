@@ -32,6 +32,7 @@ This is the first mock test which is solely to get you used to the process.
 	
 1. **[8 marks]**  
 	Which design pattern is represented in the `Complex` code we saw during the course and is available on the course repository? You should justify your answer.
+	
 	Answer:
 	The independency Injection pattern and the abstract factory pattern. In the example, instead of having to specify and create a message renderer and provider every time
 	we want to pair them up, we ask delegate the task to the system, which finds the available  templates for both, and instantiates them for us so that
@@ -62,9 +63,10 @@ This is the first mock test which is solely to get you used to the process.
 	declared in a given interface is totally irrelevant to a certain client's needs, whilst all other are (even though, this specific method fits very well an operation those objects implementing this interface need, in most cases, that is to all other clients)
 	If an additional functionality comes to mind, for which some clients may find use, a new interface should be created and the clients who need it, will have their objects also implement the second interface.
 	
-	D: Dependency inversion principle, as in question 8 and to add, high level classess should not depend on low level classess (existing already, or their details to be known)
-	but that both should depend an an abstraction, that is an abstracted common notion that unifies them like in a common ancestor way (and one which we agree is fine to depend on), for eg an interface.
-	An egample of applying the II principal is run-time reflection and avoiding using the 'new' keyword.
+	D: Dependency inversion principle, as in question 8 and to add, high level entities should not depend on low level entities (having to have been instanciated already, or their details to be known at design or compile time)
+	but that both should depend an an abstraction, that is an abstracted common notion (and one which we agree that is so essential and  is therefore fine to depend on), that applies to them both  and identifies both of them so to say  for eg an interface.
+	DI helps create loosely coupled code that is it reduces tight coupeling between software compoenents by injecting the dependencies among entities at run-time .
+	An example of applying the II principal is run-time reflection and avoiding using the 'new' keyword.
 	
 1. **[20 marks]**   
 	Refactor the `AlertService` and `AlertDAO` classes from the file `Alert.cs`:

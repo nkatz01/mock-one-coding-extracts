@@ -95,3 +95,6 @@ C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\obj\
 C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
 C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\bin\Debug\netcoreapp3.1\Alert.exe
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\bin\Debug\netcoreapp3.1\Alert.dll
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\Tests\bin\Debug\netcoreapp3.1\Alert.pdb
