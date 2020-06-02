@@ -1,0 +1,13 @@
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.exe
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.deps.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.dll
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\bin\Debug\netcoreapp3.1\LastQuestion.pdb
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.csproj.CoreCompileInputs.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.dll
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.pdb
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-one-nkatz01\MockOne\LastQuestion\obj\Debug\netcoreapp3.1\LastQuestion.genruntimeconfig.cache

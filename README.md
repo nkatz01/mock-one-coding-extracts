@@ -180,7 +180,8 @@ This is the first mock test which is solely to get you used to the process.
 
 	
 1. **[25 marks]**   
-	+ Write a program that traverses a collection of names (strings) and returns the first name whose sum of characters is equal to, or larger than, a given number `N`, which will be provided on the first input line. 
+	+ Write a program that traverses a collection of names (strings) and returns the first name whose sum of characters is equal to,
+	or larger than, a given number `N`, which will be provided on the first input line. 
 	+ Use a function that accepts another function as one of its parameters. 
 	Start off by building a regular function to hold the basic logic of the program. 
 	Something along the lines of `Func<string, int, bool>`.   
