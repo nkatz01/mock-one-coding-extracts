@@ -34,11 +34,11 @@ This is the first mock test which is solely to get you used to the process.
 	Which design pattern is represented in the `Complex` code we saw during the course and is available on the course repository? You should justify your answer.
 	
 	Answer:
-	The independency Injection pattern and the abstract factory pattern. In the example, instead of every time when we want to pair up a message renderer with provider	should our combiner or factory 
-	having to be dependent on what sub type of message renderer or message provider it is and whether the objects have already been created or not, we delegate the task of specifying and creating one, to the run-time or -- at run-time to entities 
-	whose role is just that --  who find the available templates for both, and instantiates them for us, based on a super type (interface/s) they all share which we know at compile time, so that
-	we are not dependent on the exact implementation and sub-type of the object at design or at compile time (and also our client have the flexibility of extending and adding sub-types) but so long as they implement the super type
-	on which our code depends, we can work with anything that implements/sub-types them.
+	The interpreter patter, which provides a wasy to evaluate a language grammar or expression given a formalisation of the rules of that grammer/expression sructure and a way to interpret them.
+	This is the case as in this example a sturct is provided foreach symbol (terminal or nonterminal) in the language and the signiture of the methods that interpret them are declared in an interface. The interpretation logic is 
+	then implemented, in a composit-pattern fashion, in the struct implementing that interface.
+	
+	
 
 	
 2. **[20 marks]**  
@@ -65,10 +65,16 @@ This is the first mock test which is solely to get you used to the process.
 	declared in a given interface is totally irrelevant to a certain client's needs, whilst all other are (even though, this specific method fits very well an operation those objects implementing this interface need, in most cases, that is to all other clients)
 	If an additional functionality comes to mind, for which some clients may find use, a new interface should be created and the clients who need it, will have their objects also implement the second interface.
 	
-	D: Dependency inversion principle, as in question 8 and to add, high level entities should not depend on low level entities (having to have been instantiated already, or their details to be known at design or compile time)
+	D: Dependency inversion principle, under reuse and encapsulation and inheritance says that high level entities should not depend on low level entities (having to have been instantiated already, or their details to be known at design or compile time)
 	but that both should depend an an abstraction, that is an abstracted common notion (and one which we agree that is so essential and  is therefore fine to depend on), that applies to them both  and identifies both of them so to say  for eg an interface.
 	DI helps create loosely coupled code that is it reduces tight coupling between software components by injecting the dependencies among entities at run-time .
-	An example of applying the II principal is run-time reflection and avoiding using the 'new' keyword.
+	An example of applying the II principal is run-time reflection and avoiding using the 'new' keyword. 
+	
+	In the example, what we looked at during the course, instead of every time when we want to pair up a message renderer with provider	should our combiner or factory 
+	having to be dependent on what sub type of message renderer or message provider it is and whether the objects have already been created or not, we delegate the task of specifying and creating one, to the run-time or -- at run-time to entities 
+	whose role is just that --  who find the available templates for both, and instantiates them for us, based on a super type (interface/s) they all share which we know at compile time, so that
+	we are not dependent on the exact implementation and sub-type of the object at design or at compile time (and also our client have the flexibility of extending and adding sub-types) but so long as they implement the super type
+	on which our code depends, we can work with anything that implements/sub-types them.
 
 	
 1. **[20 marks]**   
