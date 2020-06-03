@@ -65,16 +65,16 @@ This is the first mock test which is solely to get you used to the process.
 	declared in a given interface is totally irrelevant to a certain client's needs, whilst all other are (even though, this specific method fits very well an operation those objects implementing this interface need, in most cases, that is to all other clients)
 	If an additional functionality comes to mind, for which some clients may find use, a new interface should be created and the clients who need it, will have their objects also implement the second interface.
 	
-	D: Dependency inversion principle, under reuse and encapsulation and inheritance says that high level entities should not depend on low level entities (having to have been instantiated already, or their details to be known at design or compile time)
+	D: Dependency inversion principle, under reuse , encapsulation and inheritance says that high level entities should not depend on low level entities (having to have been instantiated already, or their details to be known at design or compile time)
 	but that both should depend an an abstraction, that is an abstracted common notion (and one which we agree that is so essential and  is therefore fine to depend on), that applies to them both  and identifies both of them so to say  for eg an interface.
 	DI helps create loosely coupled code that is it reduces tight coupling between software components by injecting the dependencies among entities at run-time .
-	An example of applying the II principal is run-time reflection and avoiding using the 'new' keyword. 
+	An example of applying the DI principal is coding to interfaces and abstract classes, overriding abstract methods and using the creational patterns such as the factory and dependency injection framework. 
 	
-	In the example, what we looked at during the course, instead of every time when we want to pair up a message renderer with provider	should our combiner or factory 
-	having to be dependent on what sub type of message renderer or message provider it is and whether the objects have already been created or not, we delegate the task of specifying and creating one, to the run-time or -- at run-time to entities 
-	whose role is just that --  who find the available templates for both, and instantiates them for us, based on a super type (interface/s) they all share which we know at compile time, so that
-	we are not dependent on the exact implementation and sub-type of the object at design or at compile time (and also our client have the flexibility of extending and adding sub-types) but so long as they implement the super type
-	on which our code depends, we can work with anything that implements/sub-types them.
+	An example of where the dependency injection technique was used is one we looked at during the course, where instead of every time when we want to pair up a message renderer with provider	should our combiner or factory 
+	having to be dependent on what sub type of message renderer or message provider it is and whether the objects have already been created or not, we delegate the task of specifying and creating one, to the run-time -- or  at run-time to entities 
+	whose role is just that --  to find the available templates for both, and instantiates them for us, based on a super type (interface/s) they all share which we know at compile time, so that
+	we are not dependent on the exact implementations and sub-types of the objects at design or at compile time so that if necessary, our consumers can be extended and tested without relying on the services -- and our services themselves can be modifed without 
+	having to temper with the consumers -- so long as they all implement their known super types on which our code depends, we can design our code to cater for any odd object that implements/sub-types them.
 
 	
 1. **[20 marks]**   
