@@ -34,7 +34,7 @@ This is the first mock test which is solely to get you used to the process.
 	Which design pattern is represented in the `Complex` code we saw during the course and is available on the course repository? You should justify your answer.
 	
 	Answer:
-	The interpreter patter, which provides a wasy to evaluate a language grammar or expression given a formalisation of the rules of that grammer/expression sructure and a way to interpret them.
+	The interpreter patter, which provides a way to evaluate a language grammar or expression given a formalisation of the rules of that grammer/expression sructure and a way to interpret them.
 	This is the case as in this example a sturct is provided foreach symbol (terminal or nonterminal) in the language and the signiture of the methods that interpret them are declared in an interface. The interpretation logic is 
 	then implemented, in a composit-pattern fashion, in the struct implementing that interface.
 	
@@ -56,8 +56,8 @@ This is the first mock test which is solely to get you used to the process.
 	
 	L: Liskov substitution, which is under message passing and inheritance and says, whenever you're expecting a super, giving it
 	a sub-type should also work because very sub-type is also a super. So, for eg, in practice, if the design of the system is such that certain attributes
-	of the super do not fit on the sub, and still such a class hierarchy were to be designed, it would violate this principal because handing that object to a method of its super where
-	an attempt is made to reference this property for any purpose, it would throw an error, although it accepted that object in the first place.
+	of the super do not fit on the sub, and still such a class hierarchy were to be designed, it would violate this principal because handing that object to a method that accepts its super type, in where
+	an attempt is made to reference this attributes for any purpose,  would throw an error, although it accepted that object in the first place.
 	
 	I: Interface segregation principle, which is under encapsulation and inheritance and says that if thinking about who may use your code, 
 	one should always keep their interfaces as narrow as possible, all methods together accomplishing the minimal purpose of the objects implementing this interface.
